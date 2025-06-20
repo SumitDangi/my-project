@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from './assets/Logo.png'
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
               {/* Logo Area */}
               <div className="flex flex-col items-center justify-center mb-8">
                 <img
-                  src="my-vite-app\src\assets\lzy logo-Cl4gUC2f.png"
+                  src={Logo}
                   alt="Lazy Crazy Logo"
                   className="w-56 h-auto mb-4 animate-fade-in" // Increased size, added fade-in animation
                 />
